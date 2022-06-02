@@ -12,7 +12,7 @@
 # 安装方式：
 通过Github安装包安装：https://www.bilibili.com/read/cv16469847?spm_id_from=333.999.0.0
 
-# 获得荣誉：
+# 关联作品&获得荣誉：
 本作品前身为Asoul桌宠。感谢微博画师@甜塔姆口含麦 完成此桌宠的换皮工作。  
 Asoul桌宠获得荣誉：字节跳动x稀土掘金 2022编程挑战赛 **第二名**以及**最佳人气奖**   
 颁奖公告：https://forum.juejin.cn/hackathon/post/7102977144921260069?from=1
