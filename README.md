@@ -1,3 +1,4 @@
+![image](unnamed.png)
 # 【Chrome Extention】EDG桌宠（仍在开发中）
 
 领一只Flandre, Jiejie, Scout, Viper, Meiko回家当宠物！
