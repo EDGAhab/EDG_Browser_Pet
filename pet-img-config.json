@@ -129,34 +129,29 @@
     },
     "Eileen": {
         "name": "Eileen",
-        "128": "images/EileenPet128.png",
         "point": "cursors/EileenPoint.png",
         "move": "cursors/EileenMove.png",
         "stand": {
-            "left": "images/EileenStandL.png",
-            "right": "images/EileenStandR.png"
+            "left": "images/MeikoStandL.png",
+            "right": "images/MeikoStandR.png"
         },
         "walk": {
-            "left1": "images/EileenWalkL2.png",
-            "left2": "images/EileenWalkL2.png",
-            "right1": "images/EileenWalkR2.png",
-            "right2": "images/EileenWalkR2.png"
+            "left1": "images/MeikoWalkL1.png",
+            "left2": "images/MeikoWalkL2.png",
+            "right1": "images/MeikoWalkR1.png",
+            "right2": "images/MeikoWalkR2.png"
         },
         "drag": {
-            "left": "images/EileenDragL.png",
-            "right": "images/EileenDragR.png"
+            "left": "images/MeikoDragL.png",
+            "right": "images/MeikoDragR.png"
         },
         "jump": {
-            "left": "images/EileenJumpL.png",
-            "right": "images/EileenJumpR.png"
+            "left": "images/MeikoJumpL.png",
+            "right": "images/MeikoJumpR.png"
         },
         "eat": {
-            "left1": "images/EileenEatL1.png",
-            "left2": "images/EileenEatL2.png",
-            "left3": "images/EileenEatL3.png",
-            "right1": "images/EileenEatR1.png",
-            "right2": "images/EileenEatR2.png",
-            "right3": "images/EileenEatR3.png"
+            "left": "images/MeikoEatL.png",
+            "right": "images/MeikoEatR.png"
         }
     }
 }

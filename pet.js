@@ -11,12 +11,8 @@ var walkRight1;
 var walkRight2;
 var jumpLeft;
 var jumpRight;
-var eatRight1;
-var eatRight2;
-var eatRight3;
-var eatLeft1;
-var eatLeft2;
-var eatLeft3;
+var eatRight;
+var eatLeft;
 
 //set and get positionLeft
 chrome.storage.sync.get('positionLeft', function(result) {
@@ -87,12 +83,8 @@ $(document).ready(function readyHandler() {
         walkLeft2 = chrome.runtime.getURL(data[curPetName].walk.left2);
         jumpRight = chrome.runtime.getURL(data[curPetName].jump.right);
         jumpLeft = chrome.runtime.getURL(data[curPetName].jump.left);
-        eatRight1 = chrome.runtime.getURL(data[curPetName].eat.right1);
-        eatRight2 = chrome.runtime.getURL(data[curPetName].eat.right2);
-        eatRight3 = chrome.runtime.getURL(data[curPetName].eat.right3);
-        eatLeft1 = chrome.runtime.getURL(data[curPetName].eat.left1);
-        eatLeft2 = chrome.runtime.getURL(data[curPetName].eat.left2);
-        eatLeft3 = chrome.runtime.getURL(data[curPetName].eat.left3);
+        eatRight = chrome.runtime.getURL(data[curPetName].eat.right);
+        eatLeft = chrome.runtime.getURL(data[curPetName].eat.left);
     })
 
     var pet = $("<div class='pet'></div>");
@@ -143,9 +135,9 @@ $(document).ready(function readyHandler() {
                 setTimeout(function(){
                     petImgURL_beforeEat = petImgURL
                     if (petImgURL_beforeEat == standRight) {
-                        petImgURL = eatRight1;
+                        petImgURL = eatRight;
                     } else if (petImgURL_beforeEat == standLeft) {
-                        petImgURL = eatLeft1;
+                        petImgURL = eatLeft;
                     }
                     $("#pet-img").attr("src", petImgURL);
 
