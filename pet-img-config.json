@@ -23,8 +23,8 @@
             "right": "images/AvaJumpR.png"
         },
         "eat": {
-            "left1": "images/AvaEatL.png",
-            "right1": "images/AvaEatR.png"
+            "left": "images/AvaEatL.png",
+            "right": "images/AvaEatR.png"
         }
     },
     "Bella": {
@@ -51,8 +51,8 @@
             "right": "images/BellaJumpR.png"
         },
         "eat": {
-            "left1": "images/BellaEatL.png",
-            "right1": "images/BellaEatR.png"
+            "left": "images/BellaEatL.png",
+            "right": "images/BellaEatR.png"
         }
     },
     "Scout": {
@@ -107,8 +107,8 @@
             "right": "images/DianaJumpR.png"
         },
         "eat": {
-            "left1": "images/DianaEatL.png",
-            "right1": "images/DianaEatR.png"
+            "left": "images/DianaEatL.png",
+            "right": "images/DianaEatR.png"
         }
     },
     "Meiko": {
