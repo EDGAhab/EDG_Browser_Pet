@@ -309,7 +309,7 @@ $(document).ready(function readyHandler() {
                     rightCount = true;
                 }
                 $("#pet-img").attr("src", petImgURL);
-                if(curPetName == "Carol" || curPetName == "Bella" ) {
+                if(curPetName == "Bella" ) {
                     $(".pet").animate({left: "+=10px"}, 130);
                     $(".pet").animate({left: "+=10px"}, 120);
                 } else {
@@ -332,7 +332,7 @@ $(document).ready(function readyHandler() {
                     leftCount = true;
                 }
                 $("#pet-img").attr("src", petImgURL);
-                if(curPetName == "Carol" || curPetName == "Bella" ) {
+                if(curPetName == "Bella" ) {
                     $(".pet").animate({left: "-=10px"}, 130);
                     $(".pet").animate({left: "-=10px"}, 120);
                 } else {

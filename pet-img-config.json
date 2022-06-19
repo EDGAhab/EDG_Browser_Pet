@@ -23,12 +23,8 @@
             "right": "images/AvaJumpR.png"
         },
         "eat": {
-            "left1": "images/AvaEatL1.png",
-            "left2": "images/AvaEatL2.png",
-            "left3": "images/AvaEatL3.png",
-            "right1": "images/AvaEatR1.png",
-            "right2": "images/AvaEatR2.png",
-            "right3": "images/AvaEatR3.png"
+            "left1": "images/AvaEatL.png",
+            "right1": "images/AvaEatR.png"
         }
     },
     "Bella": {
@@ -55,44 +51,36 @@
             "right": "images/BellaJumpR.png"
         },
         "eat": {
-            "left1": "images/BellaEatL1.png",
-            "left2": "images/BellaEatL2.png",
-            "left3": "images/BellaEatL3.png",
-            "right1": "images/BellaEatR1.png",
-            "right2": "images/BellaEatR2.png",
-            "right3": "images/BellaEatR3.png"
+            "left1": "images/BellaEatL.png",
+            "right1": "images/BellaEatR.png"
         }
     },
-    "Carol": {
-        "name": "Carol",
-        "128": "images/CarolPet128.png",
-        "point": "cursors/CarolPoint.png",
-        "move": "cursors/CarolMove.png",
+    "Scout": {
+        "name": "Scout",
+        "128": "images/ScoutPet128.png",
+        "point": "cursors/ScoutPoint.png",
+        "move": "cursors/ScoutMove.png",
         "stand": {
-            "left": "images/CarolStandL.png",
-            "right": "images/CarolStandR.png"
+            "left": "images/ScoutStandL.png",
+            "right": "images/ScoutStandR.png"
         },
         "walk": {
-            "left1": "images/CarolWalkL2.png",
-            "left2": "images/CarolWalkL2.png",
-            "right1": "images/CarolWalkR2.png",
-            "right2": "images/CarolWalkR2.png"
+            "left1": "images/ScoutWalkL1.png",
+            "left2": "images/ScoutWalkL2.png",
+            "right1": "images/ScoutWalkR1.png",
+            "right2": "images/ScoutWalkR2.png"
         },
         "drag": {
-            "left": "images/CarolDragL.png",
-            "right": "images/CarolDragR.png"
+            "left": "images/ScoutDragL.png",
+            "right": "images/ScoutDragR.png"
         },
         "jump": {
-            "left": "images/CarolJumpL.png",
-            "right": "images/CarolJumpR.png"
+            "left": "images/ScoutJumpL.png",
+            "right": "images/ScoutJumpR.png"
         },
         "eat": {
-            "left1": "images/CarolEatL1.png",
-            "left2": "images/CarolEatL2.png",
-            "left3": "images/CarolEatL3.png",
-            "right1": "images/CarolEatR1.png",
-            "right2": "images/CarolEatR2.png",
-            "right3": "images/CarolEatR3.png"
+            "left": "images/ScoutEatL.png",
+            "right": "images/ScoutEatR.png"
         }
     },
     "Diana": {
@@ -119,12 +107,8 @@
             "right": "images/DianaJumpR.png"
         },
         "eat": {
-            "left1": "images/DianaEatL1.png",
-            "left2": "images/DianaEatL2.png",
-            "left3": "images/DianaEatL3.png",
-            "right1": "images/DianaEatR1.png",
-            "right2": "images/DianaEatR2.png",
-            "right3": "images/DianaEatR3.png"
+            "left1": "images/DianaEatL.png",
+            "right1": "images/DianaEatR.png"
         }
     },
     "Meiko": {

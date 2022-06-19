@@ -1,10 +1,10 @@
 {
   "name": "EDG Browser Pet",
   "description": "A Cute Browser Pet!",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "manifest_version": 3,
 
-  "author": "Feilian Huang, Yao Xiao, Shiyao Shen",
+  "author": "Feilian Huang",
 
   "icons": {
     "16": "/images/icon16.png",
