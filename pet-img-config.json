@@ -127,10 +127,11 @@
             "right3": "images/DianaEatR3.png"
         }
     },
-    "Eileen": {
-        "name": "Eileen",
-        "point": "cursors/EileenPoint.png",
-        "move": "cursors/EileenMove.png",
+    "Meiko": {
+        "name": "Meiko",
+        "128": "images/MeikoPet128.png",
+        "point": "cursors/MeikoPoint.png",
+        "move": "cursors/MeikoMove.png",
         "stand": {
             "left": "images/MeikoStandL.png",
             "right": "images/MeikoStandR.png"
