@@ -309,13 +309,8 @@ $(document).ready(function readyHandler() {
                     rightCount = true;
                 }
                 $("#pet-img").attr("src", petImgURL);
-                if(curPetName == "Bella" ) {
-                    $(".pet").animate({left: "+=10px"}, 130);
-                    $(".pet").animate({left: "+=10px"}, 120);
-                } else {
-                    $(".pet").animate({left: "+=10px", top: "-=10px"}, 130);
-                    $(".pet").animate({left: "+=10px", top: "+=10px"}, 120);
-                }
+                $(".pet").animate({left: "+=10px", top: "-=10px"}, 130);
+                $(".pet").animate({left: "+=10px", top: "+=10px"}, 120);
                 petImgURL = petImgURL_afterWalk;
                 setTimeout(function () {
                     $("#pet-img").attr("src", petImgURL);
@@ -332,13 +327,8 @@ $(document).ready(function readyHandler() {
                     leftCount = true;
                 }
                 $("#pet-img").attr("src", petImgURL);
-                if(curPetName == "Bella" ) {
-                    $(".pet").animate({left: "-=10px"}, 130);
-                    $(".pet").animate({left: "-=10px"}, 120);
-                } else {
-                    $(".pet").animate({left: "-=10px", top: "-=10px"}, 130);
-                    $(".pet").animate({left: "-=10px", top: "+=10px"}, 120);
-                }
+                $(".pet").animate({left: "-=10px", top: "-=10px"}, 130);
+                $(".pet").animate({left: "-=10px", top: "+=10px"}, 120);
                 petImgURL = petImgURL_afterWalk;
                 setTimeout(function () {
                     $("#pet-img").attr("src", petImgURL);

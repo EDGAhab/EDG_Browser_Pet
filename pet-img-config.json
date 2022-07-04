@@ -27,32 +27,32 @@
             "right": "images/AvaEatR.png"
         }
     },
-    "Bella": {
-        "name": "Bella",
-        "128": "images/BellaPet128.png",
-        "point": "cursors/BellaPoint.png",
-        "move": "cursors/BellaMove.png",
+    "Jiejie": {
+        "name": "Jiejie",
+        "128": "images/JiejiePet128.png",
+        "point": "cursors/JiejiePoint.png",
+        "move": "cursors/JiejieMove.png",
         "stand": {
-            "left": "images/BellaStandL.png",
-            "right": "images/BellaStandR.png"
+            "left": "images/JiejieStandL.png",
+            "right": "images/JiejieStandR.png"
         },
         "walk": {
-            "left1": "images/BellaWalkL1.png",
-            "left2": "images/BellaWalkL2.png",
-            "right1": "images/BellaWalkR1.png",
-            "right2": "images/BellaWalkR2.png"
+            "left1": "images/JiejieWalkL1.png",
+            "left2": "images/JiejieWalkL2.png",
+            "right1": "images/JiejieWalkR1.png",
+            "right2": "images/JiejieWalkR2.png"
         },
         "drag": {
-            "left": "images/BellaDragL.png",
-            "right": "images/BellaDragR.png"
+            "left": "images/JiejieDragL.png",
+            "right": "images/JiejieDragR.png"
         },
         "jump": {
-            "left": "images/BellaJumpL.png",
-            "right": "images/BellaJumpR.png"
+            "left": "images/JiejieJumpL.png",
+            "right": "images/JiejieJumpR.png"
         },
         "eat": {
-            "left": "images/BellaEatL.png",
-            "right": "images/BellaEatR.png"
+            "left": "images/JiejieEatL.png",
+            "right": "images/JiejieEatR.png"
         }
     },
     "Scout": {

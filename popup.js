@@ -39,8 +39,8 @@ function onChange1(e) {
 
 function onChange2(e) {
     e.preventDefault();
-    petName = "Bella";
-    chineseName = "贝拉";
+    petName = "Jiejie";
+    chineseName = "Jiejie";
     let image = "/images/" + petName + "Pet128.png";
     let newContent = newMsg(chineseName,image);
     msg.innerHTML = newContent;
