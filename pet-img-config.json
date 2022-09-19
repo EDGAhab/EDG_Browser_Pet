@@ -1,30 +1,30 @@
 {
-    "Ava": {
-        "name": "Ava",
-        "128": "images/AvaPet128.png",
-        "point": "cursors/AvaPoint.png",
-        "move": "cursors/AvaMove.png",
+    "Flandre": {
+        "name": "Flandre",
+        "128": "images/FlandrePet128.png",
+        "point": "cursors/FlandrePoint.png",
+        "move": "cursors/FlandreMove.png",
         "stand": {
-            "left": "images/AvaStandL.png",
-            "right": "images/AvaStandR.png"
+            "left": "images/FlandreStandL.png",
+            "right": "images/FlandreStandR.png"
         },
         "walk": {
-            "left1": "images/AvaWalkL1.png",
-            "left2": "images/AvaWalkL2.png",
-            "right1": "images/AvaWalkR1.png",
-            "right2": "images/AvaWalkR2.png"
+            "left1": "images/FlandreWalkL1.png",
+            "left2": "images/FlandreWalkL2.png",
+            "right1": "images/FlandreWalkR1.png",
+            "right2": "images/FlandreWalkR2.png"
         },
         "drag": {
-            "left": "images/AvaDragL.png",
-            "right": "images/AvaDragR.png"
+            "left": "images/FlandreDragL.png",
+            "right": "images/FlandreDragR.png"
         },
         "jump": {
-            "left": "images/AvaJumpL.png",
-            "right": "images/AvaJumpR.png"
+            "left": "images/FlandreJumpL.png",
+            "right": "images/FlandreJumpR.png"
         },
         "eat": {
-            "left": "images/AvaEatL.png",
-            "right": "images/AvaEatR.png"
+            "left": "images/FlandreEatL.png",
+            "right": "images/FlandreEatR.png"
         }
     },
     "Jiejie": {
@@ -83,32 +83,32 @@
             "right": "images/ScoutEatR.png"
         }
     },
-    "Diana": {
-        "name": "Diana",
-        "128": "images/DianaPet128.png",
-        "point": "cursors/DianaPoint.png",
-        "move": "cursors/DianaMove.png",
+    "Viper": {
+        "name": "Viper",
+        "128": "images/ViperPet128.png",
+        "point": "cursors/ViperPoint.png",
+        "move": "cursors/ViperMove.png",
         "stand": {
-            "left": "images/DianaStandL.png",
-            "right": "images/DianaStandR.png"
+            "left": "images/ViperStandL.png",
+            "right": "images/ViperStandR.png"
         },
         "walk": {
-            "left1": "images/DianaWalkL1.png",
-            "left2": "images/DianaWalkL2.png",
-            "right1": "images/DianaWalkR1.png",
-            "right2": "images/DianaWalkR2.png"
+            "left1": "images/ViperWalkL1.png",
+            "left2": "images/ViperWalkL2.png",
+            "right1": "images/ViperWalkR1.png",
+            "right2": "images/ViperWalkR2.png"
         },
         "drag": {
-            "left": "images/DianaDragL.png",
-            "right": "images/DianaDragR.png"
+            "left": "images/ViperDragL.png",
+            "right": "images/ViperDragR.png"
         },
         "jump": {
-            "left": "images/DianaJumpL.png",
-            "right": "images/DianaJumpR.png"
+            "left": "images/ViperJumpL.png",
+            "right": "images/ViperJumpR.png"
         },
         "eat": {
-            "left": "images/DianaEatL.png",
-            "right": "images/DianaEatR.png"
+            "left": "images/ViperEatL.png",
+            "right": "images/ViperEatR.png"
         }
     },
     "Meiko": {

@@ -15,7 +15,7 @@ changeButton4.addEventListener('click', onChange4);
 changeButton5.addEventListener('click', onChange5);
 
 const changeSubmit = document.getElementById("pet-submit");
-var petName = "Ava";
+var petName = "Flandre";
 
 
 
@@ -29,8 +29,8 @@ function newMsg(chineseName, image){
 
 function onChange1(e) {
     e.preventDefault();
-    petName = "Ava";
-    chineseName = "向晚";
+    petName = "Flandre";
+    chineseName = "Flandre";
     let image = "/images/" + petName + "Pet128.png";
     let newContent = newMsg(chineseName,image);
     msg.innerHTML = newContent;
@@ -59,8 +59,8 @@ function onChange3(e) {
 
 function onChange4(e) {
     e.preventDefault();
-    petName = "Diana";
-    chineseName = "嘉然";
+    petName = "Viper";
+    chineseName = "Viper";
     let image = "/images/" + petName + "Pet128.png";
     let newContent = newMsg(chineseName,image);
     msg.innerHTML = newContent;

@@ -44,8 +44,8 @@ $(document).ready(function readyHandler() {
     chrome.storage.sync.get('thoname', function(result) {
         console.log(result)
         if (result.thoname == undefined) {
-            curPetName = 'Ava'
-            console.log('null, but set to Ava')
+            curPetName = 'Flandre'
+            console.log('null, but set to Flandre')
         } else {
             console.log('Value currently is ' + result.thoname);
             curPetName = result.thoname;
