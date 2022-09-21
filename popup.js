@@ -15,7 +15,7 @@ changeButton4.addEventListener('click', onChange4);
 changeButton5.addEventListener('click', onChange5);
 
 const changeSubmit = document.getElementById("pet-submit");
-var petName = "Meiko";
+var petName = "Jiejie";
 
 
 
