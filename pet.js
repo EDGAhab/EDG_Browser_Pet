@@ -15,7 +15,7 @@ var eatRight;
 var eatLeft;
 
 //set and get positionLeft
-chrome.storage.sync.get('positionLeft', function(result) {
+chrome.storage.local.get('positionLeft', function(result) {
     console.log(result)
     if (result.positionLeft == undefined) {
         posLeft = '100px'
@@ -28,7 +28,7 @@ chrome.storage.sync.get('positionLeft', function(result) {
 });
 
 //set and get positionTop
-chrome.storage.sync.get('positionTop', function(result) {
+chrome.storage.local.get('positionTop', function(result) {
     console.log(result)
     if (result.positionTop == undefined) {
         posTop = '400px'
@@ -41,7 +41,7 @@ chrome.storage.sync.get('positionTop', function(result) {
 
 $(document).ready(function readyHandler() {
     //set and get name
-    chrome.storage.sync.get('thoname', function(result) {
+    chrome.storage.local.get('thoname', function(result) {
         console.log(result)
         if (result.thoname == undefined) {
             curPetName = 'Jiejie'
@@ -56,7 +56,7 @@ $(document).ready(function readyHandler() {
     chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
         curPetName=request.getName;
         
-        chrome.storage.sync.set({'thoname': curPetName}, function() {
+        chrome.storage.local.set({'thoname': curPetName}, function() {
             console.log('Name is set to ' + curPetName);
         });
         
@@ -65,6 +65,7 @@ $(document).ready(function readyHandler() {
         $("body").parent().children("div").remove();
         $(document).off();
         readyHandler()
+
     });
 
     
@@ -108,7 +109,9 @@ $(document).ready(function readyHandler() {
         //"top": "400px",
         "z-index": "9999",
         "position": "fixed",
-        "touch-action": "none"
+        "touch-action": "none",
+        "will-change": "transform",
+        "image-rendering": "-webkit-optimize-contrast"
     });
     $(".pet").css("left", posLeft);
     $(".pet").css("top", posTop);
@@ -267,10 +270,10 @@ $(document).ready(function readyHandler() {
             posLeft = window.screen.availWidth - 128
         }    
 
-        chrome.storage.sync.set({'positionLeft': posLeft}, function() {
+        chrome.storage.local.set({'positionLeft': posLeft}, function() {
             console.log('posLeft is set to ' + posLeft);
         });
-        chrome.storage.sync.set({'positionTop': posTop}, function() {
+        chrome.storage.local.set({'positionTop': posTop}, function() {
             console.log('posTop is set to ' + posTop);
         });
     }
