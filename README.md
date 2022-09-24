@@ -13,3 +13,5 @@
 
 # 安装方式：
 通过Github安装包安装：https://www.bilibili.com/read/cv16469847?spm_id_from=333.999.0.0
+
+![image](aa.png)
